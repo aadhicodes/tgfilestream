@@ -1,0 +1,23 @@
+{
+  "name": "Files Streamere",
+  "description": "Telegram Files to Direct links",
+  "repository": "https://github.com/viperadnan-git/tgfilestream-telegram-bot",
+  "logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
+  "keywords": ["Telegram", "Google Drive", "uploader"],
+  "env": {
+      "TG_SESSION_NAME": {
+      "description": "Get it from @BotFather"
+    },
+    "TG_APP_ID": {
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+    },
+    "TG_API_HASH": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
